@@ -1,15 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : Unit {
+public class Base_Enemy : Base_Stats {
 
 	// Use this for initialization
 	void Start () {
-        _hitPoints = 50;
-        _attackPower = 2;
+	
 	}
 	
 	// Update is called once per frame
 	void Update () {
+	
 	}
 }

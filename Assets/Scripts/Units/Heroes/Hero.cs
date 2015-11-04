@@ -1,19 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Unit : MonoBehaviour
+public class Hero : Unit
 {
-    public int hitPoints;
-    public int attackPower;
-
+    public int mana;
     // Use this for initialization
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
+    {
+
+    }
+
+    void Movement()
     {
 
     }

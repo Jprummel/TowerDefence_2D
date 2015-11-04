@@ -3,6 +3,11 @@ using System.Collections;
 
 public class Keyboard_Input : MonoBehaviour {
 
+    public bool wPressed;
+    public bool aPressed;
+    public bool sPressed;
+    public bool dPressed;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -12,4 +17,9 @@ public class Keyboard_Input : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    void CheckKeyPress()
+    {
+       
+    }
 }

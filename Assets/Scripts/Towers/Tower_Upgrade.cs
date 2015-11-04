@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Base : MonoBehaviour {
+public class Tower_Upgrade : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
