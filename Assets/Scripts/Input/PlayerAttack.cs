@@ -12,10 +12,10 @@ public class PlayerAttack : MonoBehaviour
     private float _attackCd = 0.2f;
 
 
-    public Collider2D attackTriggerR;
-    public Collider2D attackTriggerL;
-    public Collider2D attackTriggerU;
-    public Collider2D attackTriggerD;
+    [SerializeField] private Collider2D attackTriggerR;
+    [SerializeField] private Collider2D attackTriggerL;
+    [SerializeField] private Collider2D attackTriggerU;
+    [SerializeField] private Collider2D attackTriggerD;
 
     void Awake()
     {
@@ -53,7 +53,7 @@ public class PlayerAttack : MonoBehaviour
             attackTriggerU.enabled = true;
         }
 
-        if (Input.GetKeyDown(KeyCode.K) && !_attackingU)
+        if (Input.GetKeyDown(KeyCode.K) && !_attackingD)
         {
             _attackingD = true;
             _attackTimer = _attackCd;
