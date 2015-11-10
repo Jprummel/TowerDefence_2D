@@ -8,12 +8,11 @@ public class FireTower : Tower {
 
 
 	// Use this for initialization
-	void Start () {
-        damage = 10;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+    protected override void Start() 
+    {
+        base.Start();
+        _damage = 10;
+        _range = 1;
+        _attackSpeed = 1;
 	}
 }
