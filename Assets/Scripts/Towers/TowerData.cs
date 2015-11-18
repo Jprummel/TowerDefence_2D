@@ -60,7 +60,7 @@ public class TowerData : MonoBehaviour {
         }
         else
         {
-            return null; // If tower is max level returns null
+            return null; //If tower is max level returns null
         }
     }
 
