@@ -8,11 +8,8 @@ public class FireTower : Tower {
 
 
 	// Use this for initialization
-    protected override void Start() 
+    void Start() 
     {
-        base.Start();
-        _damage = 10;
-        _range = 1;
-        _attackSpeed = 1;
+
 	}
 }

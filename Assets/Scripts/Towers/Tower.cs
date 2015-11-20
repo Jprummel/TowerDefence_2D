@@ -4,14 +4,14 @@ using System.Collections;
 public class Tower : MonoBehaviour {
     
     //Tower Stats
-    [SerializeField] protected int   _damage;
-    [SerializeField] protected float _attackSpeed;
-    [SerializeField] protected float _range;
+    [SerializeField] private int   _damage;
+    [SerializeField] private float _attackSpeed;
+    [SerializeField] private float _range;
     
     private int _layerMask;
 
 	// Use this for initialization
-    protected virtual void Start () 
+    void Start () 
     {
         _layerMask = LayerMask.GetMask("Enemy");
 	}
