@@ -33,7 +33,7 @@ public class wayPointAI : MonoBehaviour
     private void Walk()
     {   
         //rotation
-       Quaternion Rotation = Quaternion.LookRotation(_wayPoint[_currentWayPoint].position - transform.position);
+       Quaternion Rotation = Quaternion.LookRotation(_wayPoint[_currentWayPoint].position - transform.position, Vector2.up);
        transform.rotation = Quaternion.Slerp(transform.rotation, Rotation, Time.deltaTime * _rotationSpeed);
 
         //movement
