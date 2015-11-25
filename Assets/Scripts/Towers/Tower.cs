@@ -5,8 +5,11 @@ public class Tower : MonoBehaviour {
     
     //Tower Stats
     [SerializeField] private int   _damage;
-    [SerializeField] private float _attackSpeed;
+    [SerializeField] private float _attackInterval = 1f;
+    private float _attackTimer = 0f;
     [SerializeField] private float _range;
+    [SerializeField]
+    private GameObject _Bullet;
     
     private int _layerMask;
 
@@ -14,28 +17,39 @@ public class Tower : MonoBehaviour {
     void Start () 
     {
         _layerMask = LayerMask.GetMask("Enemy");
+        
 	}
 	
 	// Update is called once per frame
 	void Update () 
     {
         FindTarget();
+        if(_attackTimer < _attackInterval)
+        {
+            _attackTimer += Time.deltaTime;
+        }
 	}
-
-    IEnumerator Attack()
-    {
-        yield return new WaitForSeconds(1 /_attackSpeed);
-    }
-
+    
     void FindTarget()
     {
         Collider2D col = Physics2D.OverlapCircle(this.transform.position, _range, _layerMask);
-        Debug.Log(col);
+
+        if (col != null && _attackTimer >= _attackInterval)
+        {
+            _attackTimer = 0f;
+            Shoot(col.transform);
+        }
     }
 
     void OnDrawGizmos()
     {
         Gizmos.color = Color.white; // 
         Gizmos.DrawWireSphere(this.transform.position, _range); // Draws the radius
+    }
+
+    void Shoot(Transform target)
+    {
+        GameObject bullet = (GameObject)Instantiate(_Bullet, transform.position, Quaternion.identity);
+        bullet.GetComponent<bulletMovement>().setTarget(target);
     }
 }

@@ -2,24 +2,23 @@
 using System.Collections;
 
 public class wayPointAI : MonoBehaviour
-{   
-    private Transform[] _wayPoint = new Transform[5];
+{
+    private Transform[] _wayPoint;
     private int _currentWayPoint = 0;
     private float _rotationSpeed = 2.0f;
-    private float _speed = 2.0f;
-
+    private float _speed = 100.0f;
+    private Rigidbody2D _rBody;
     // Use this for initialization
     void Start()
     {
-        _wayPoint[0] = GameObject.Find("WayPoint1").transform;
-        _wayPoint[1] = GameObject.Find("WayPoint2").transform;
-        _wayPoint[2] = GameObject.Find("WayPoint3").transform;
+        
+        _rBody = this.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (_currentWayPoint == 3)
+        if (_currentWayPoint == 18)
         {
             Destroy(this.gameObject);
         }
@@ -31,16 +30,15 @@ public class wayPointAI : MonoBehaviour
     }
 
     private void Walk()
-    {   
-        //rotation
-       Quaternion Rotation = Quaternion.LookRotation(_wayPoint[_currentWayPoint].position - transform.position, Vector2.up);
-       transform.rotation = Quaternion.Slerp(transform.rotation, Rotation, Time.deltaTime * _rotationSpeed);
+    {
+        Vector2 target = _wayPoint[_currentWayPoint].position;
+        Vector2 currentPoint = transform.position;
 
-        //movement
-        Vector2 wayPointDirection = _wayPoint[_currentWayPoint].position - transform.position;
-        float dir = Vector2.Dot(wayPointDirection.normalized, transform.forward);
-        float speed = _speed * dir;
-        transform.Translate(0, 0, Time.deltaTime * speed);
+        Vector2 offSet = target - currentPoint;
+
+        _rBody.velocity = offSet.normalized * _speed * Time.deltaTime;
+
+        
     }
 
     void OnTriggerEnter2D(Collider2D coll)
@@ -50,6 +48,25 @@ public class wayPointAI : MonoBehaviour
             _currentWayPoint++;
         }
 
+        if(coll.tag == "AttackTrigger")
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D coll)
+    { 
+
+        Debug.Log("boom");
+        if(coll.gameObject.tag == "Bullet")
+        {
+            Destroy(this.gameObject);
+        }
+    }
+
+    public void setWaypoints(Transform[] waypoints)
+    {
+        _wayPoint = waypoints;
     }
 
   
