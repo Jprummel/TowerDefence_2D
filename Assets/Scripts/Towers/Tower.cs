@@ -13,11 +13,13 @@ public class Tower : MonoBehaviour {
     
     private int _layerMask;
 
+    Animator dogAnim;
+
 	// Use this for initialization
     void Start () 
     {
         _layerMask = LayerMask.GetMask("Enemy");
-        
+        dogAnim = GetComponentInChildren<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -49,6 +51,7 @@ public class Tower : MonoBehaviour {
 
     void Shoot(Transform target)
     {
+        dogAnim.Play("DogThrow_L");
         GameObject bullet = (GameObject)Instantiate(_Bullet, transform.position, Quaternion.identity);
         bullet.GetComponent<bulletMovement>().setTarget(target);
     }

@@ -1,14 +1,34 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 90265de35f9275940b1309ad00aa9255
-timeCreated: 1448477353
-=======
-guid: cf58a5e5096ec29419fa611247e7fb32
-timeCreated: 1448462913
->>>>>>> origin/master
+timeCreated: 1448556126
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: tower_idle_L_0
+    21300002: tower_idle_L_1
+    21300004: tower_idle_L_2
+    21300006: tower_idle_L_3
+    21300008: tower_idle_L_4
+    21300010: tower_idle_L_5
+    21300012: tower_idle_L_6
+    21300014: tower_idle_L_7
+    21300016: tower_idle_L_8
+    21300018: tower_idle_L_9
+    21300020: tower_idle_L_10
+    21300022: tower_idle_L_11
+    21300024: tower_idle_L_12
+    21300026: tower_idle_L_13
+    21300028: tower_idle_L_14
+    21300030: tower_idle_L_15
+    21300032: tower_idle_L_16
+    21300034: tower_idle_L_17
+    21300036: tower_idle_L_18
+    21300038: tower_idle_L_19
+    21300040: tower_idle_L_20
+    21300042: tower_idle_L_21
+    21300044: tower_idle_L_22
+    21300046: tower_idle_L_23
+    21300048: tower_idle_L_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -43,7 +63,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +74,257 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: tower_idle_L_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 780
+        width: 115
+        height: 192
+      alignment: 9
+      pivot: {x: .341705978, y: .627932549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 780
+        width: 115
+        height: 193
+      alignment: 9
+      pivot: {x: .341705978, y: .627787709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 780
+        width: 114
+        height: 193
+      alignment: 9
+      pivot: {x: .329434037, y: .627787709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_3
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 780
+        width: 113
+        height: 194
+      alignment: 9
+      pivot: {x: .316943944, y: .634555459}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_4
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 780
+        width: 112
+        height: 195
+      alignment: 9
+      pivot: {x: .304230839, y: .641254127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_5
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 780
+        width: 112
+        height: 195
+      alignment: 9
+      pivot: {x: .292259753, y: .641254127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_6
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 585
+        width: 117
+        height: 190
+      alignment: 9
+      pivot: {x: .377080947, y: .614113271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_7
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 585
+        width: 118
+        height: 190
+      alignment: 9
+      pivot: {x: .377275497, y: .621169865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_8
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 585
+        width: 117
+        height: 191
+      alignment: 9
+      pivot: {x: .377080947, y: .621058941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_9
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 585
+        width: 116
+        height: 191
+      alignment: 9
+      pivot: {x: .353767127, y: .62807858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 585
+        width: 117
+        height: 192
+      alignment: 9
+      pivot: {x: .354161978, y: .620949447}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_11
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 585
+        width: 116
+        height: 192
+      alignment: 9
+      pivot: {x: .353767127, y: .627932549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_12
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 390
+        width: 116
+        height: 191
+      alignment: 9
+      pivot: {x: .365325272, y: .62807858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_13
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 390
+        width: 117
+        height: 191
+      alignment: 9
+      pivot: {x: .365621835, y: .621058762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 390
+        width: 117
+        height: 190
+      alignment: 9
+      pivot: {x: .365621448, y: .628226519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_15
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 390
+        width: 117
+        height: 190
+      alignment: 9
+      pivot: {x: .377080947, y: .621169865}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_16
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 390
+        width: 117
+        height: 189
+      alignment: 9
+      pivot: {x: .388539881, y: .614187896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_17
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 390
+        width: 118
+        height: 189
+      alignment: 9
+      pivot: {x: .399999589, y: .614187896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 196
+        width: 113
+        height: 194
+      alignment: 9
+      pivot: {x: .293213964, y: .62764436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 195
+        width: 114
+        height: 193
+      alignment: 9
+      pivot: {x: .31767261, y: .627788007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_20
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 195
+        width: 115
+        height: 193
+      alignment: 9
+      pivot: {x: .31838882, y: .634734929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_21
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 195
+        width: 115
+        height: 192
+      alignment: 9
+      pivot: {x: .330047071, y: .634915829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_22
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 195
+        width: 116
+        height: 192
+      alignment: 9
+      pivot: {x: .35376662, y: .620949566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_23
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 195
+        width: 117
+        height: 192
+      alignment: 9
+      pivot: {x: .354161441, y: .620949566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_idle_L_24
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 0
+        width: 112
+        height: 195
+      alignment: 9
+      pivot: {x: .292259216, y: .627502561}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

@@ -7,8 +7,11 @@ public class KeyboardInput : MonoBehaviour
     private float curSpeed;
     private float maxSpeed;
 
+    Animator playerMoveAnim;
+
      void Start()
     {
+        playerMoveAnim = GetComponent<Animator>();
         walkSpeed = 5.0f;
     }
 
@@ -21,5 +24,10 @@ public class KeyboardInput : MonoBehaviour
         this.GetComponent<Rigidbody2D>().velocity = 
         new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal") * curSpeed, 0.8f),
         Mathf.Lerp(0, Input.GetAxis("Vertical") * curSpeed, 0.8f));
+
+        if (Input.GetKey(KeyCode.D))
+        {
+            playerMoveAnim.Play("Running_R");
+        }        
     }
 }
