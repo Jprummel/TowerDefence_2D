@@ -29,5 +29,9 @@ public class KeyboardInput : MonoBehaviour
         {
             playerMoveAnim.Play("Running_R");
         }        
+        if (Input.GetKey(KeyCode.A))
+        {
+            playerMoveAnim.Play("Running_L");
+        }
     }
 }
