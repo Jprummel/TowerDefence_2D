@@ -5,7 +5,6 @@ public class wayPointAI : MonoBehaviour
 {
     private Transform[] _wayPoint;
     private int _currentWayPoint = 0;
-    private float _rotationSpeed = 2.0f;
     private float _speed = 100.0f;
     private Rigidbody2D _rBody;
     // Use this for initialization
@@ -56,8 +55,6 @@ public class wayPointAI : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D coll)
     { 
-
-        Debug.Log("boom");
         if(coll.gameObject.tag == "Bullet")
         {
             Destroy(this.gameObject);

@@ -1,34 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: afd410852d9b5634ca945cb37dabb56c
+timeCreated: 1448477371
+=======
 guid: 27fff94640028b04eb562154ee910119
-timeCreated: 1448492475
+timeCreated: 1448462850
+>>>>>>> origin/master
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: player_death_R_0
-    21300002: player_death_R_1
-    21300004: player_death_R_2
-    21300006: player_death_R_3
-    21300008: player_death_R_4
-    21300010: player_death_R_5
-    21300012: player_death_R_6
-    21300014: player_death_R_7
-    21300016: player_death_R_8
-    21300018: player_death_R_9
-    21300020: player_death_R_10
-    21300022: player_death_R_11
-    21300024: player_death_R_12
-    21300026: player_death_R_13
-    21300028: player_death_R_14
-    21300030: player_death_R_15
-    21300032: player_death_R_16
-    21300034: player_death_R_17
-    21300036: player_death_R_18
-    21300038: player_death_R_19
-    21300040: player_death_R_20
-    21300042: player_death_R_21
-    21300044: player_death_R_22
-    21300046: player_death_R_23
-    21300048: player_death_R_24
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,7 +35,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: 16
+    aniso: -1
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -63,7 +43,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -74,257 +54,7 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites:
-    - name: player_death_R_0
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 1194
-        width: 369
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_1
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 1192
-        width: 379
-        height: 227
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_2
-      rect:
-        serializedVersion: 2
-        x: 1137
-        y: 1192
-        width: 392
-        height: 193
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_3
-      rect:
-        serializedVersion: 2
-        x: 1647
-        y: 1182
-        width: 383
-        height: 218
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_4
-      rect:
-        serializedVersion: 2
-        x: 2145
-        y: 1197
-        width: 390
-        height: 199
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_5
-      rect:
-        serializedVersion: 2
-        x: 2650
-        y: 1206
-        width: 386
-        height: 156
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_6
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 906
-        width: 393
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_7
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 889
-        width: 396
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_8
-      rect:
-        serializedVersion: 2
-        x: 1054
-        y: 884
-        width: 402
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_9
-      rect:
-        serializedVersion: 2
-        x: 1571
-        y: 893
-        width: 406
-        height: 158
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_10
-      rect:
-        serializedVersion: 2
-        x: 2091
-        y: 902
-        width: 403
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_11
-      rect:
-        serializedVersion: 2
-        x: 2616
-        y: 912
-        width: 393
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_12
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 614
-        width: 387
-        height: 152
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_13
-      rect:
-        serializedVersion: 2
-        x: 535
-        y: 603
-        width: 376
-        height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_14
-      rect:
-        serializedVersion: 2
-        x: 1048
-        y: 594
-        width: 370
-        height: 151
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_15
-      rect:
-        serializedVersion: 2
-        x: 1562
-        y: 594
-        width: 377
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_16
-      rect:
-        serializedVersion: 2
-        x: 2077
-        y: 594
-        width: 381
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_17
-      rect:
-        serializedVersion: 2
-        x: 2594
-        y: 594
-        width: 380
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_18
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 306
-        width: 376
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_19
-      rect:
-        serializedVersion: 2
-        x: 524
-        y: 303
-        width: 368
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_20
-      rect:
-        serializedVersion: 2
-        x: 1043
-        y: 289
-        width: 363
-        height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_21
-      rect:
-        serializedVersion: 2
-        x: 1562
-        y: 297
-        width: 362
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_22
-      rect:
-        serializedVersion: 2
-        x: 2081
-        y: 298
-        width: 362
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_23
-      rect:
-        serializedVersion: 2
-        x: 2597
-        y: 291
-        width: 363
-        height: 136
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: player_death_R_24
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 2
-        width: 362
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+    sprites: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
