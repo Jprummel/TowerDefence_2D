@@ -7,15 +7,14 @@ public class enemyBehaviour : MonoBehaviour
     private int _currentWayPoint = 0;
     private float _speed = 100.0f;
     private Rigidbody2D _rBody;
-<<<<<<< HEAD:Assets/Scripts/Units/Enemies/enemyBehaviour.cs
     [SerializeField]
     private float _dmg;
 
-=======
+
     
     Animator enemyAnim;
     private SoundEffects _sfx;
->>>>>>> origin/master:Assets/Scripts/Units/Enemies/wayPointAI.cs
+
     // Use this for initialization
     void Start()
     {
@@ -57,9 +56,9 @@ public class enemyBehaviour : MonoBehaviour
             _currentWayPoint++;
         }
 
-<<<<<<< HEAD:Assets/Scripts/Units/Enemies/enemyBehaviour.cs
+
         Health _health = coll.GetComponent<Health>();
-=======
+
         if(coll.tag == "AttackTrigger")
         {
             _sfx.PlaySound(Random.Range(0, 1));
@@ -67,15 +66,15 @@ public class enemyBehaviour : MonoBehaviour
             StartCoroutine(Destroy());
         }
     }
->>>>>>> origin/master:Assets/Scripts/Units/Enemies/wayPointAI.cs
+
 
         if (_health != null)
         {
-<<<<<<< HEAD:Assets/Scripts/Units/Enemies/enemyBehaviour.cs
+
             _health.takeDamage(_dmg);
-=======
+
             StartCoroutine(Destroy());
->>>>>>> origin/master:Assets/Scripts/Units/Enemies/wayPointAI.cs
+
         }
 
     }

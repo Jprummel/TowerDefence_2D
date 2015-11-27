@@ -14,32 +14,20 @@ public class Tower : MonoBehaviour
     private float _range;
     [SerializeField]
     private GameObject _Bullet;
-
+    private Animator dogAnim;
     private int _layerMask;
 
-<<<<<<< HEAD
+
     // Use this for initialization
     void Start()
     {
         _layerMask = LayerMask.GetMask("Enemy");
-
+        dogAnim = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
     void Update()
-=======
-    Animator dogAnim;
 
-	// Use this for initialization
-    void Start () 
-    {
-        _layerMask = LayerMask.GetMask("Enemy");
-        dogAnim = GetComponentInChildren<Animator>();
-	}
-	
-	// Update is called once per frame
-	void Update () 
->>>>>>> origin/master
     {
         FindTarget();
         if (_attackTimer < _attackInterval)
