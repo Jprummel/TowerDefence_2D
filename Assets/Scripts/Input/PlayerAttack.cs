@@ -12,6 +12,7 @@ public class PlayerAttack : MonoBehaviour
     private float _attackCd = 0.2f;
 
     Animator playerAttackAnim;
+    private SoundEffects _sfx;
 
     [SerializeField] private Collider2D attackTriggerR;
     [SerializeField] private Collider2D attackTriggerL;
@@ -21,6 +22,7 @@ public class PlayerAttack : MonoBehaviour
     void Awake()
     {
         playerAttackAnim = GetComponent<Animator>();
+        _sfx = GetComponent<SoundEffects>();
 
         attackTriggerR.enabled = false;
         attackTriggerL.enabled = false;
@@ -40,6 +42,7 @@ public class PlayerAttack : MonoBehaviour
             _attackTimer = _attackCd;
             attackTriggerR.enabled = true;
             playerAttackAnim.Play("Attack1_R");
+            _sfx.PlaySound(1);
         }
 
         if (Input.GetKeyDown(KeyCode.J) && !_attackingL)
@@ -47,6 +50,7 @@ public class PlayerAttack : MonoBehaviour
             _attackingL = true;
             _attackTimer = _attackCd;
             attackTriggerL.enabled = true;
+            _sfx.PlaySound(0);
         }
 
         if (Input.GetKeyDown(KeyCode.I) && !_attackingU)
