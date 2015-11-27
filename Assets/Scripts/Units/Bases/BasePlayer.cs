@@ -3,18 +3,14 @@ using System.Collections;
 
 public class BasePlayer : BaseStats 
 {
-    
-	// Use this for initialization
-	void Start () 
+    void OnCollisionEnter2D(Collision2D other)
     {
-	    
-	}
-	
-	// Update is called once per frame
-	void Update () 
-    {
-	
-	}
+        if(other.transform.tag == "Enemy")
+        {
+            lives--;
+            StartCoroutine(GameOver());
+        }
+    }
 
     IEnumerator GameOver()
     {

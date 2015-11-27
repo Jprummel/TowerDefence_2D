@@ -1,7 +1,39 @@
 fileFormatVersion: 2
 guid: f29e6c5c3c3d90040be337f568b792a8
+timeCreated: 1448547630
+licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: player_idle_R_0
+    21300002: player_idle_R_1
+    21300004: player_idle_R_2
+    21300006: player_idle_R_3
+    21300008: player_idle_R_4
+    21300010: player_idle_R_5
+    21300012: player_idle_R_6
+    21300014: player_idle_R_7
+    21300016: player_idle_R_8
+    21300018: player_idle_R_9
+    21300020: player_idle_R_10
+    21300022: player_idle_R_11
+    21300024: player_idle_R_12
+    21300026: player_idle_R_13
+    21300028: player_idle_R_14
+    21300030: player_idle_R_15
+    21300032: player_idle_R_16
+    21300034: player_idle_R_17
+    21300036: player_idle_R_18
+    21300038: player_idle_R_19
+    21300040: player_idle_R_20
+    21300042: player_idle_R_21
+    21300044: player_idle_R_22
+    21300046: player_idle_R_23
+    21300048: player_idle_R_24
+    21300050: player_idle_R_25
+    21300052: player_idle_R_26
+    21300054: player_idle_R_27
+    21300056: player_idle_R_28
+    21300058: player_idle_R_29
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -36,7 +68,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -47,7 +79,307 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: player_idle_R_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1017
+        width: 370
+        height: 250
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1019
+        width: 369
+        height: 249
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_2
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 1019
+        width: 367
+        height: 248
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_3
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1018
+        width: 364
+        height: 248
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_4
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1017
+        width: 360
+        height: 247
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_5
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1019
+        width: 356
+        height: 246
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_6
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 762
+        width: 353
+        height: 245
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_7
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 762
+        width: 351
+        height: 244
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_8
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 762
+        width: 352
+        height: 243
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 762
+        width: 354
+        height: 245
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_10
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 761
+        width: 356
+        height: 247
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_11
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 761
+        width: 356
+        height: 248
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 509
+        width: 361
+        height: 248
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_13
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 511
+        width: 367
+        height: 249
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_14
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 511
+        width: 368
+        height: 250
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_15
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 511
+        width: 370
+        height: 250
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_16
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 511
+        width: 370
+        height: 250
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_17
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 510
+        width: 369
+        height: 250
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 256
+        width: 368
+        height: 249
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_19
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 255
+        width: 367
+        height: 248
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_20
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 255
+        width: 365
+        height: 246
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_21
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 255
+        width: 363
+        height: 243
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_22
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 256
+        width: 362
+        height: 241
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_23
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 256
+        width: 363
+        height: 241
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2
+        width: 365
+        height: 244
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_25
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 2
+        width: 365
+        height: 244
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_26
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2
+        width: 366
+        height: 245
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_27
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 2
+        width: 368
+        height: 247
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_28
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 3
+        width: 369
+        height: 249
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_idle_R_29
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 3
+        width: 369
+        height: 249
+      alignment: 9
+      pivot: {x: .819999993, y: .620000005}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

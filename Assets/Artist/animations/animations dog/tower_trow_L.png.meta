@@ -1,14 +1,34 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: e9fc9283bcbd16648b48605c6096733d
-timeCreated: 1448477389
-=======
-guid: 40f2e3e56d4d32c4692791ae7af2a466
-timeCreated: 1448462854
->>>>>>> origin/master
+timeCreated: 1448556906
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: tower_trow_L_0
+    21300002: tower_trow_L_1
+    21300004: tower_trow_L_2
+    21300006: tower_trow_L_3
+    21300008: tower_trow_L_4
+    21300010: tower_trow_L_5
+    21300012: tower_trow_L_6
+    21300014: tower_trow_L_7
+    21300016: tower_trow_L_8
+    21300018: tower_trow_L_9
+    21300020: tower_trow_L_10
+    21300022: tower_trow_L_11
+    21300024: tower_trow_L_12
+    21300026: tower_trow_L_13
+    21300028: tower_trow_L_14
+    21300030: tower_trow_L_15
+    21300032: tower_trow_L_16
+    21300034: tower_trow_L_17
+    21300036: tower_trow_L_18
+    21300038: tower_trow_L_19
+    21300040: tower_trow_L_20
+    21300042: tower_trow_L_21
+    21300044: tower_trow_L_22
+    21300046: tower_trow_L_23
+    21300048: tower_trow_L_24
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -43,7 +63,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +74,257 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: tower_trow_L_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 825
+        width: 119
+        height: 191
+      alignment: 9
+      pivot: {x: .440776795, y: .500000298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 823
+        width: 131
+        height: 192
+      alignment: 9
+      pivot: {x: .467721492, y: .500000656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_2
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 821
+        width: 141
+        height: 194
+      alignment: 9
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_3
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 820
+        width: 144
+        height: 195
+      alignment: 9
+      pivot: {x: .490211904, y: .500000298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 820
+        width: 137
+        height: 195
+      alignment: 9
+      pivot: {x: .458846271, y: .500000298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_5
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 820
+        width: 122
+        height: 195
+      alignment: 9
+      pivot: {x: .384465456, y: .500000298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 618
+        width: 152
+        height: 182
+      alignment: 9
+      pivot: {x: .416542053, y: .55421263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 618
+        width: 138
+        height: 185
+      alignment: 9
+      pivot: {x: .387647331, y: .560952365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_8
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 618
+        width: 119
+        height: 191
+      alignment: 9
+      pivot: {x: .357863992, y: .522139132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_9
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 618
+        width: 110
+        height: 196
+      alignment: 9
+      pivot: {x: .294979572, y: .521574378}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_10
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 618
+        width: 103
+        height: 196
+      alignment: 9
+      pivot: {x: .253677517, y: .514383137}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_11
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 619
+        width: 112
+        height: 194
+      alignment: 9
+      pivot: {x: .361566812, y: .514531374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 415
+        width: 142
+        height: 182
+      alignment: 9
+      pivot: {x: .321328968, y: .476766557}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 415
+        width: 148
+        height: 186
+      alignment: 9
+      pivot: {x: .3571437, y: .492422134}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_14
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 415
+        width: 181
+        height: 190
+      alignment: 9
+      pivot: {x: .42991361, y: .507418811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_15
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 420
+        width: 159
+        height: 193
+      alignment: 9
+      pivot: {x: .437946439, y: .500000298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_16
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 416
+        width: 146
+        height: 188
+      alignment: 9
+      pivot: {x: .471037567, y: .552482426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_17
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 413
+        width: 162
+        height: 180
+      alignment: 9
+      pivot: {x: .465197891, y: .578306735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_18
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 208
+        width: 109
+        height: 191
+      alignment: 9
+      pivot: {x: .280167222, y: .50737983}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_19
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 210
+        width: 112
+        height: 189
+      alignment: 9
+      pivot: {x: .311225891, y: .507458091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_20
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 210
+        width: 116
+        height: 188
+      alignment: 9
+      pivot: {x: .30558461, y: .500000298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_21
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 210
+        width: 122
+        height: 186
+      alignment: 9
+      pivot: {x: .326698691, y: .500000179}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_22
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 210
+        width: 133
+        height: 184
+      alignment: 9
+      pivot: {x: .319836617, y: .484679341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_23
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 210
+        width: 142
+        height: 181
+      alignment: 9
+      pivot: {x: .31140396, y: .492213637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tower_trow_L_24
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1
+        width: 113
+        height: 193
+      alignment: 9
+      pivot: {x: .325370312, y: .53651607}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

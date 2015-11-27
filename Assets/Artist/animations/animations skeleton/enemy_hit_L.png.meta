@@ -1,14 +1,49 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: ea2da8d8534f30d4fb9c4629e0c2422d
-timeCreated: 1448477393
-=======
-guid: 430cd6c7187e94040879ae488b29e502
-timeCreated: 1448462858
->>>>>>> origin/master
+timeCreated: 1448582842
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: enemy_hit_L_0
+    21300002: enemy_hit_L_1
+    21300004: enemy_hit_L_2
+    21300006: enemy_hit_L_3
+    21300008: enemy_hit_L_4
+    21300010: enemy_hit_L_5
+    21300012: enemy_hit_L_6
+    21300014: enemy_hit_L_7
+    21300016: enemy_hit_L_8
+    21300018: enemy_hit_L_9
+    21300020: enemy_hit_L_10
+    21300022: enemy_hit_L_11
+    21300024: enemy_hit_L_12
+    21300026: enemy_hit_L_13
+    21300028: enemy_hit_L_14
+    21300030: enemy_hit_L_15
+    21300032: enemy_hit_L_16
+    21300034: enemy_hit_L_17
+    21300036: enemy_hit_L_18
+    21300038: enemy_hit_L_19
+    21300040: enemy_hit_L_20
+    21300042: enemy_hit_L_21
+    21300044: enemy_hit_L_22
+    21300046: enemy_hit_L_23
+    21300048: enemy_hit_L_24
+    21300050: enemy_hit_L_25
+    21300052: enemy_hit_L_26
+    21300054: enemy_hit_L_27
+    21300056: enemy_hit_L_28
+    21300058: enemy_hit_L_29
+    21300060: enemy_hit_L_30
+    21300062: enemy_hit_L_31
+    21300064: enemy_hit_L_32
+    21300066: enemy_hit_L_33
+    21300068: enemy_hit_L_34
+    21300070: enemy_hit_L_35
+    21300072: enemy_hit_L_36
+    21300074: enemy_hit_L_37
+    21300076: enemy_hit_L_38
+    21300078: enemy_hit_L_39
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -43,7 +78,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +89,407 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: enemy_hit_L_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1963
+        width: 210
+        height: 310
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_1
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1979
+        width: 198
+        height: 280
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_2
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1989
+        width: 214
+        height: 264
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_3
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 1981
+        width: 241
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_4
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1970
+        width: 251
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_5
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1959
+        width: 253
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1633
+        width: 252
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1633
+        width: 251
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_8
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1633
+        width: 251
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_9
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1633
+        width: 250
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_10
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1633
+        width: 250
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_11
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 1632
+        width: 244
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1305
+        width: 239
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_13
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1305
+        width: 233
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_14
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1304
+        width: 214
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_15
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 1304
+        width: 203
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_16
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1305
+        width: 194
+        height: 297
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_17
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 1305
+        width: 194
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 980
+        width: 213
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_19
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 982
+        width: 231
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_20
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 982
+        width: 233
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_21
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 981
+        width: 220
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_22
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 982
+        width: 207
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_23
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 982
+        width: 203
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_24
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 655
+        width: 204
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_25
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 655
+        width: 206
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_26
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 655
+        width: 208
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_27
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 655
+        width: 212
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_28
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 655
+        width: 219
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_29
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 655
+        width: 228
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 329
+        width: 230
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_31
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 329
+        width: 226
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_32
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 329
+        width: 215
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_33
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 329
+        width: 207
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_34
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 328
+        width: 202
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_35
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 328
+        width: 200
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1
+        width: 222
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_37
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1
+        width: 235
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_38
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 2
+        width: 237
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_hit_L_39
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 4
+        width: 228
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

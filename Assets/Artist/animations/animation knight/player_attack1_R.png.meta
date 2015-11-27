@@ -1,7 +1,26 @@
 fileFormatVersion: 2
 guid: 56cdc354e37cbd842bd8b3366101cef5
+timeCreated: 1448547063
+licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: player_attack1_R_0
+    21300002: player_attack1_R_1
+    21300004: player_attack1_R_2
+    21300006: player_attack1_R_3
+    21300008: player_attack1_R_4
+    21300010: player_attack1_R_5
+    21300012: player_attack1_R_6
+    21300014: player_attack1_R_7
+    21300016: player_attack1_R_8
+    21300018: player_attack1_R_9
+    21300020: player_attack1_R_10
+    21300022: player_attack1_R_11
+    21300024: player_attack1_R_12
+    21300026: player_attack1_R_13
+    21300028: player_attack1_R_14
+    21300030: player_attack1_R_15
+    21300032: player_attack1_R_16
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -36,7 +55,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -47,7 +66,177 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: player_attack1_R_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1692
+        width: 368
+        height: 239
+      alignment: 9
+      pivot: {x: .829999983, y: .519999981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_1
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1692
+        width: 382
+        height: 239
+      alignment: 9
+      pivot: {x: .800000012, y: .519999981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_2
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1692
+        width: 370
+        height: 235
+      alignment: 9
+      pivot: {x: .800000012, y: .550000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_3
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1692
+        width: 345
+        height: 225
+      alignment: 9
+      pivot: {x: .75, y: .529999971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_4
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 1692
+        width: 359
+        height: 220
+      alignment: 9
+      pivot: {x: .75, y: .589999974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_5
+      rect:
+        serializedVersion: 2
+        x: 3332
+        y: 1692
+        width: 343
+        height: 291
+      alignment: 9
+      pivot: {x: .75, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 975
+        width: 176
+        height: 449
+      alignment: 9
+      pivot: {x: .449999988, y: .300000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_7
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 975
+        width: 276
+        height: 410
+      alignment: 9
+      pivot: {x: .300000012, y: .349999994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_8
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 975
+        width: 401
+        height: 243
+      alignment: 9
+      pivot: {x: .200000003, y: .600000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_9
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 766
+        width: 253
+        height: 451
+      alignment: 9
+      pivot: {x: .449999988, y: .769999981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_10
+      rect:
+        serializedVersion: 2
+        x: 2817
+        y: 722
+        width: 203
+        height: 494
+      alignment: 9
+      pivot: {x: .74000001, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_11
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 741
+        width: 208
+        height: 475
+      alignment: 9
+      pivot: {x: .699999988, y: .800000012}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_12
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 60
+        width: 253
+        height: 440
+      alignment: 9
+      pivot: {x: .600000024, y: .769999981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_13
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 192
+        width: 351
+        height: 308
+      alignment: 9
+      pivot: {x: .349999994, y: .670000017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_14
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 252
+        width: 332
+        height: 247
+      alignment: 9
+      pivot: {x: .239999995, y: .600000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_15
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 259
+        width: 153
+        height: 386
+      alignment: 9
+      pivot: {x: .479999989, y: .360000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: player_attack1_R_16
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 261
+        width: 206
+        height: 376
+      alignment: 9
+      pivot: {x: .649999976, y: .360000014}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

@@ -6,27 +6,27 @@ using System.Collections;
 public class SoundTrack : MonoBehaviour
 {
     public  AudioClip[] soundtrack;
-    private AudioSource audio;
+    private AudioSource _audio;
 
     // Use this for initialization
     void Start()
     {
-        audio = GetComponent<AudioSource>();
+        _audio = GetComponent<AudioSource>();
 
-        if (!audio.playOnAwake)
+        if (!_audio.playOnAwake)
         {
-            audio.clip = soundtrack[Random.Range(0, soundtrack.Length)];
-            audio.Play();
+            _audio.clip = soundtrack[Random.Range(0, soundtrack.Length)];
+            _audio.Play();
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!audio.isPlaying)
+        if (!_audio.isPlaying)
         {
-            audio.clip = soundtrack[Random.Range(0, soundtrack.Length)];
-            audio.Play();
+            _audio.clip = soundtrack[Random.Range(0, soundtrack.Length)];
+            _audio.Play();
             
         }
     }

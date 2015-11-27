@@ -1,14 +1,41 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 0d21346baee17c144a0f5635311c045e
-timeCreated: 1448477301
-=======
-guid: a381ece5f59271f4d90a1f1a050007ca
-timeCreated: 1448462901
->>>>>>> origin/master
+timeCreated: 1448551674
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: enemy_running_L_0
+    21300002: enemy_running_L_1
+    21300004: enemy_running_L_2
+    21300006: enemy_running_L_3
+    21300008: enemy_running_L_4
+    21300010: enemy_running_L_5
+    21300012: enemy_running_L_6
+    21300014: enemy_running_L_7
+    21300016: enemy_running_L_8
+    21300018: enemy_running_L_9
+    21300020: enemy_running_L_10
+    21300022: enemy_running_L_11
+    21300024: enemy_running_L_12
+    21300026: enemy_running_L_13
+    21300028: enemy_running_L_14
+    21300030: enemy_running_L_15
+    21300032: enemy_running_L_16
+    21300034: enemy_running_L_17
+    21300036: enemy_running_L_18
+    21300038: enemy_running_L_19
+    21300040: enemy_running_L_20
+    21300042: enemy_running_L_21
+    21300044: enemy_running_L_22
+    21300046: enemy_running_L_23
+    21300048: enemy_running_L_24
+    21300050: enemy_running_L_25
+    21300052: enemy_running_L_26
+    21300054: enemy_running_L_27
+    21300056: enemy_running_L_28
+    21300058: enemy_running_L_29
+    21300060: enemy_running_L_30
+    21300062: enemy_running_L_31
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,7 +62,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -43,7 +70,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -54,7 +81,327 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: enemy_running_L_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1871
+        width: 300
+        height: 285
+      alignment: 9
+      pivot: {x: .438396811, y: .532423139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_1
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1860
+        width: 288
+        height: 272
+      alignment: 9
+      pivot: {x: .457219869, y: .5339728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1851
+        width: 281
+        height: 264
+      alignment: 9
+      pivot: {x: .489038646, y: .546669245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_3
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1843
+        width: 268
+        height: 249
+      alignment: 9
+      pivot: {x: .522986114, y: .561850905}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_4
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1834
+        width: 261
+        height: 268
+      alignment: 9
+      pivot: {x: .570808709, y: .59194535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_5
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1828
+        width: 233
+        height: 284
+      alignment: 9
+      pivot: {x: .605756879, y: .597611129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_6
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1460
+        width: 180
+        height: 295
+      alignment: 9
+      pivot: {x: .619784355, y: .593971372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_7
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1462
+        width: 191
+        height: 298
+      alignment: 9
+      pivot: {x: .564506471, y: .593025386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_8
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1466
+        width: 230
+        height: 298
+      alignment: 9
+      pivot: {x: .580352008, y: .603361607}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_9
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1473
+        width: 251
+        height: 295
+      alignment: 9
+      pivot: {x: .561358094, y: .562648118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_10
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1483
+        width: 256
+        height: 289
+      alignment: 9
+      pivot: {x: .524063587, y: .595922351}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_11
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1499
+        width: 249
+        height: 276
+      alignment: 9
+      pivot: {x: .500000477, y: .589280307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1154
+        width: 247
+        height: 280
+      alignment: 9
+      pivot: {x: .47505942, y: .533002138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_13
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1171
+        width: 241
+        height: 285
+      alignment: 9
+      pivot: {x: .448877364, y: .478385001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_14
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 1173
+        width: 243
+        height: 282
+      alignment: 9
+      pivot: {x: .423946679, y: .489077747}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_15
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1172
+        width: 243
+        height: 279
+      alignment: 9
+      pivot: {x: .411270946, y: .488960296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_16
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 1163
+        width: 245
+        height: 273
+      alignment: 9
+      pivot: {x: .437139273, y: .522565544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_17
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1142
+        width: 235
+        height: 275
+      alignment: 9
+      pivot: {x: .447571069, y: .544802904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 760
+        width: 226
+        height: 283
+      alignment: 9
+      pivot: {x: .445483804, y: .576188266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_19
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 748
+        width: 224
+        height: 280
+      alignment: 9
+      pivot: {x: .527501225, y: .588005304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_20
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 738
+        width: 213
+        height: 269
+      alignment: 9
+      pivot: {x: .572304606, y: .603054345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_21
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 737
+        width: 200
+        height: 246
+      alignment: 9
+      pivot: {x: .62320739, y: .612689495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_22
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 732
+        width: 235
+        height: 274
+      alignment: 9
+      pivot: {x: .696606457, y: .60117358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_23
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 734
+        width: 244
+        height: 283
+      alignment: 9
+      pivot: {x: .714601636, y: .59795624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 376
+        width: 258
+        height: 288
+      alignment: 9
+      pivot: {x: .66714102, y: .596255422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_25
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 405
+        width: 258
+        height: 273
+      alignment: 9
+      pivot: {x: .559693098, y: .578979254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_26
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 449
+        width: 242
+        height: 249
+      alignment: 9
+      pivot: {x: .52545619, y: .487630457}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_27
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 459
+        width: 235
+        height: 255
+      alignment: 9
+      pivot: {x: .48689276, y: .46376282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 456
+        width: 237
+        height: 261
+      alignment: 9
+      pivot: {x: .487003386, y: .464595854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_29
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 452
+        width: 238
+        height: 269
+      alignment: 9
+      pivot: {x: .500000536, y: .45419845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_30
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 83
+        width: 239
+        height: 275
+      alignment: 9
+      pivot: {x: .487112314, y: .477599084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemy_running_L_31
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 75
+        width: 246
+        height: 282
+      alignment: 9
+      pivot: {x: .487478852, y: .489077955}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
