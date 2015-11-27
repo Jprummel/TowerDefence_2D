@@ -10,9 +10,7 @@ public class Tower : MonoBehaviour {
     [SerializeField] private float _range;
     [SerializeField]
     private GameObject _Bullet;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     private Animator dogAnim;
     private int _layerMask;
 
@@ -24,47 +22,9 @@ public class Tower : MonoBehaviour {
         dogAnim = GetComponentInChildren<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
 
-=======
-    
-    private int _layerMask;
-
-	// Use this for initialization
-    void Start () 
-    {
-        _layerMask = LayerMask.GetMask("Enemy");
-=======
-    
-    private int _layerMask;
-
-	// Use this for initialization
-    void Start () 
-    {
-        _layerMask = LayerMask.GetMask("Enemy");
->>>>>>> parent of 2a66a78... main
-=======
-    
-    private int _layerMask;
-
-	// Use this for initialization
-    void Start () 
-    {
-        _layerMask = LayerMask.GetMask("Enemy");
->>>>>>> parent of 2a66a78... main
-        
-	}
-	
 	// Update is called once per frame
-	void Update () 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 2a66a78... main
-=======
->>>>>>> parent of 2a66a78... main
-=======
->>>>>>> parent of 2a66a78... main
+	void Update ()
     {
         FindTarget();
         if(_attackTimer < _attackInterval)
