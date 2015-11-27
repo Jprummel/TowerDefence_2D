@@ -3,9 +3,9 @@ using System.Collections;
 
 public class BasePlayer : BaseStats 
 {
-    void OnCollisionEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.tag == "Enemy")
+        if(other.transform.tag == "Enemy")
         {
             lives--;
             StartCoroutine(GameOver());
