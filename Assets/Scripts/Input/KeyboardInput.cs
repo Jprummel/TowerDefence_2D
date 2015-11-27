@@ -6,13 +6,38 @@ public class KeyboardInput : MonoBehaviour
     private float walkSpeed;
     private float curSpeed;
     private float maxSpeed;
+<<<<<<< HEAD
+<<<<<<< HEAD
 
     Animator playerMoveAnim;
 
      void Start()
     {
-        playerMoveAnim = GetComponent<Animator>();
+<<<<<<< HEAD
+
         walkSpeed = 1.0f;
+        playerMoveAnim = GetComponent<Animator>();
+<<<<<<< HEAD
+        walkSpeed = 1.0f;
+=======
+        walkSpeed = 5.0f;
+
+=======
+        walkSpeed = 5.0f;
+>>>>>>> parent of 2a66a78... main
+=======
+
+     void Start()
+    {
+        walkSpeed = 5.0f;
+>>>>>>> parent of 2a66a78... main
+=======
+
+     void Start()
+    {
+        walkSpeed = 5.0f;
+>>>>>>> parent of 2a66a78... main
+>>>>>>> 1ac07af549e42c9c9f64611974bac6e41962d780
     }
 
     void FixedUpdate()

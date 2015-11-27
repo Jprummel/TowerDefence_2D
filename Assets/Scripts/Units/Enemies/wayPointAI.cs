@@ -7,14 +7,10 @@ public class wayPointAI : MonoBehaviour
     private int _currentWayPoint = 0;
     private float _speed = 25.0f;
     private Rigidbody2D _rBody;
-    
-    Animator enemyAnim;
-    private SoundEffects _sfx;
     // Use this for initialization
     void Start()
     {
-        enemyAnim = GetComponent<Animator>();
-        _sfx = GetComponent<SoundEffects>();
+        
         _rBody = this.GetComponent<Rigidbody2D>();
     }
 
@@ -53,9 +49,7 @@ public class wayPointAI : MonoBehaviour
 
         if(coll.tag == "AttackTrigger")
         {
-            _sfx.PlaySound(Random.Range(0, 1));
-            enemyAnim.Play("Hit_L");
-            StartCoroutine(Destroy());
+            Destroy(this.gameObject);
         }
     }
 
@@ -63,7 +57,7 @@ public class wayPointAI : MonoBehaviour
     { 
         if(coll.gameObject.tag == "Bullet")
         {
-            StartCoroutine(Destroy());
+            Destroy(this.gameObject);
         }
 
         /*
@@ -81,11 +75,5 @@ public class wayPointAI : MonoBehaviour
         _wayPoint = waypoints;
     }
 
-    IEnumerator Destroy()
-    {
-        _sfx.PlaySound(2);
-        //enemyAnim.Play("Death");
-        yield return new WaitForSeconds(2);
-        Destroy(this.gameObject);
-    }
+  
 }

@@ -50,7 +50,59 @@ public class PlayerAttack : MonoBehaviour
             _sfx.PlaySound(0);
         }
 
+<<<<<<< HEAD
         if (_attackingR || _attackingL)
+=======
+        if (Input.GetKeyDown(KeyCode.I) && !_attackingU)
+        {
+            _attackingU = true;
+            _attackTimer = _attackCd;
+            attackTriggerU.enabled = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.K) && !_attackingD)
+        {
+            _attackingD = true;
+            _attackTimer = _attackCd;
+            attackTriggerD.enabled = true;
+        }
+
+<<<<<<< HEAD
+=======
+        if (Input.GetKeyDown(KeyCode.I) && !_attackingU)
+        {
+            _attackingU = true;
+            _attackTimer = _attackCd;
+            attackTriggerU.enabled = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.K) && !_attackingD)
+        {
+            _attackingD = true;
+            _attackTimer = _attackCd;
+            attackTriggerD.enabled = true;
+        }
+
+<<<<<<< HEAD
+>>>>>>> parent of 2a66a78... main
+=======
+        if (Input.GetKeyDown(KeyCode.I) && !_attackingU)
+        {
+            _attackingU = true;
+            _attackTimer = _attackCd;
+            attackTriggerU.enabled = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.K) && !_attackingD)
+        {
+            _attackingD = true;
+            _attackTimer = _attackCd;
+            attackTriggerD.enabled = true;
+        }
+
+>>>>>>> parent of 2a66a78... main
+        if (_attackingR || _attackingL || _attackingU || _attackingD)
+>>>>>>> 1ac07af549e42c9c9f64611974bac6e41962d780
         {
             if (_attackTimer > 0)
             {
