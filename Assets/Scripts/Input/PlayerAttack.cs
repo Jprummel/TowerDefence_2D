@@ -7,7 +7,7 @@ public class PlayerAttack : MonoBehaviour
     private bool _attackingL = false;
 
     private float _attackTimer = 0;
-    private float _attackCd = 0.2f;
+    private float _attackCd = 0.8f;
     private float _dmg = 25f;
 
     Animator playerAttackAnim;

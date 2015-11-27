@@ -8,6 +8,7 @@ public class BasePlayer : BaseStats
         if(other.transform.tag == "Enemy")
         {
             lives--;
+            Destroy(other.gameObject);
             StartCoroutine(GameOver());
         }
     }

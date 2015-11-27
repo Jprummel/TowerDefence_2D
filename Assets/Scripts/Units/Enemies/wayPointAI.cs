@@ -5,21 +5,26 @@ public class wayPointAI : MonoBehaviour
 {
     private Transform[] _wayPoint;
     private int _currentWayPoint = 0;
-    private float _speed = 25.0f;
+    private float _speed = 50.0f;
     private Rigidbody2D _rBody;
+
+    Animator enemyAnim;
+    private SoundEffects _sfx;
     // Use this for initialization
     void Start()
     {
-        
+        enemyAnim = GetComponent<Animator>();
+        _sfx = GetComponent<SoundEffects>();
         _rBody = this.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (_currentWayPoint == 18)
+        if (_currentWayPoint == 21)
         {
-            Destroy(this.gameObject);
+            Debug.Log(_currentWayPoint);
+            //Destroy(this.gameObject);
         }
         else
         {
@@ -37,27 +42,29 @@ public class wayPointAI : MonoBehaviour
 
         _rBody.velocity = offSet.normalized * _speed * Time.deltaTime;
 
-        
+
     }
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if(coll.tag == "WayPoint")
+        if (coll.tag == "WayPoint")
         {
             _currentWayPoint++;
         }
 
-        if(coll.tag == "AttackTrigger")
+        if (coll.tag == "AttackTrigger")
         {
-            Destroy(this.gameObject);
+            _sfx.PlaySound(Random.Range(0, 1));
+            enemyAnim.Play("Hit_L");
+            StartCoroutine(Destroy());
         }
     }
 
     void OnCollisionEnter2D(Collision2D coll)
-    { 
-        if(coll.gameObject.tag == "Bullet")
+    {
+        if (coll.gameObject.tag == "Bullet")
         {
-            Destroy(this.gameObject);
+            StartCoroutine(Destroy());
         }
 
         /*
@@ -75,5 +82,12 @@ public class wayPointAI : MonoBehaviour
         _wayPoint = waypoints;
     }
 
-  
+    IEnumerator Destroy()
+    {
+        _sfx.PlaySound(2);
+        //enemyAnim.Play("Death");
+        Bank.Gold += 10;
+        yield return new WaitForSeconds(0.5f);
+        Destroy(this.gameObject);
+    }
 }
