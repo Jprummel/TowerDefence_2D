@@ -1,19 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Tower : MonoBehaviour
-{
-
+public class Tower : MonoBehaviour {
+    
     //Tower Stats
-    [SerializeField]
-    private int _damage;
-    [SerializeField]
-    private float _attackInterval = 1f;
+    [SerializeField] private int   _damage;
+    [SerializeField] private float _attackInterval = 1f;
     private float _attackTimer = 0f;
-    [SerializeField]
-    private float _range;
+    [SerializeField] private float _range;
     [SerializeField]
     private GameObject _Bullet;
+<<<<<<< HEAD
     private Animator dogAnim;
     private int _layerMask;
 
@@ -28,14 +25,28 @@ public class Tower : MonoBehaviour
     // Update is called once per frame
     void Update()
 
+=======
+    
+    private int _layerMask;
+
+	// Use this for initialization
+    void Start () 
+    {
+        _layerMask = LayerMask.GetMask("Enemy");
+        
+	}
+	
+	// Update is called once per frame
+	void Update () 
+>>>>>>> parent of 2a66a78... main
     {
         FindTarget();
-        if (_attackTimer < _attackInterval)
+        if(_attackTimer < _attackInterval)
         {
             _attackTimer += Time.deltaTime;
         }
-    }
-
+	}
+    
     void FindTarget()
     {
         Collider2D col = Physics2D.OverlapCircle(this.transform.position, _range, _layerMask);
