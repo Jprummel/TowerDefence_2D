@@ -1,15 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BuildTower : MonoBehaviour {
+public class BuildTower : MonoBehaviour
+{
+    [SerializeField]
+    private GameObject buildMenu;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    void OnMouseDown()
+    {
+        buildMenu.SetActive(!buildMenu.activeSelf);
+    }
+
 }

@@ -12,7 +12,7 @@ public class KeyboardInput : MonoBehaviour
      void Start()
     {
         playerMoveAnim = GetComponent<Animator>();
-        walkSpeed = 5.0f;
+        walkSpeed = 1.0f;
     }
 
     void FixedUpdate()

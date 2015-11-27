@@ -1,27 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class wayPointAI : MonoBehaviour
+public class enemyBehaviour : MonoBehaviour
 {
     private Transform[] _wayPoint;
     private int _currentWayPoint = 0;
-    private float _speed = 25.0f;
+    private float _speed = 10.0f;
     private Rigidbody2D _rBody;
-    
-    Animator enemyAnim;
-    private SoundEffects _sfx;
+    [SerializeField]
+    private float _dmg;
+
     // Use this for initialization
     void Start()
     {
-        enemyAnim = GetComponent<Animator>();
-        _sfx = GetComponent<SoundEffects>();
+        
         _rBody = this.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (_currentWayPoint == 18)
+        if (_currentWayPoint == 19)
         {
             Destroy(this.gameObject);
         }
@@ -30,7 +29,7 @@ public class wayPointAI : MonoBehaviour
             Walk();
         }
 
-    }
+     }
 
     private void Walk()
     {
@@ -51,29 +50,13 @@ public class wayPointAI : MonoBehaviour
             _currentWayPoint++;
         }
 
-        if(coll.tag == "AttackTrigger")
-        {
-            _sfx.PlaySound(Random.Range(0, 1));
-            enemyAnim.Play("Hit_L");
-            StartCoroutine(Destroy());
-        }
-    }
-
-    void OnCollisionEnter2D(Collision2D coll)
-    { 
-        if(coll.gameObject.tag == "Bullet")
-        {
-            StartCoroutine(Destroy());
-        }
-
-        /*
-          Health _health = coll.GetComponent<Health>();
+        Health _health = coll.GetComponent<Health>();
 
         if (_health != null)
         {
             _health.takeDamage(_dmg);
         }
-         */
+
     }
 
     public void setWaypoints(Transform[] waypoints)
@@ -81,11 +64,5 @@ public class wayPointAI : MonoBehaviour
         _wayPoint = waypoints;
     }
 
-    IEnumerator Destroy()
-    {
-        _sfx.PlaySound(2);
-        //enemyAnim.Play("Death");
-        yield return new WaitForSeconds(2);
-        Destroy(this.gameObject);
-    }
+  
 }
