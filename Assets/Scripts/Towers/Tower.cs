@@ -12,6 +12,7 @@ public class Tower : MonoBehaviour {
     private GameObject _Bullet;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private Animator dogAnim;
     private int _layerMask;
 
@@ -43,12 +44,24 @@ public class Tower : MonoBehaviour {
     {
         _layerMask = LayerMask.GetMask("Enemy");
 >>>>>>> parent of 2a66a78... main
+=======
+    
+    private int _layerMask;
+
+	// Use this for initialization
+    void Start () 
+    {
+        _layerMask = LayerMask.GetMask("Enemy");
+>>>>>>> parent of 2a66a78... main
         
 	}
 	
 	// Update is called once per frame
 	void Update () 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 2a66a78... main
+=======
 >>>>>>> parent of 2a66a78... main
 =======
 >>>>>>> parent of 2a66a78... main

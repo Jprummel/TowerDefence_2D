@@ -7,25 +7,10 @@ public class wayPointAI : MonoBehaviour
     private int _currentWayPoint = 0;
     private float _speed = 100.0f;
     private Rigidbody2D _rBody;
-<<<<<<< HEAD:Assets/Scripts/Units/Enemies/wayPointAI.cs
-<<<<<<< HEAD:Assets/Scripts/Units/Enemies/enemyBehaviour.cs
-    [SerializeField]
-    private float _dmg;
-
-
-    
-    Animator enemyAnim;
-    private SoundEffects _sfx;
-
-=======
->>>>>>> parent of 2a66a78... main:Assets/Scripts/Units/Enemies/wayPointAI.cs
-=======
->>>>>>> parent of 2a66a78... main:Assets/Scripts/Units/Enemies/wayPointAI.cs
     // Use this for initialization
     void Start()
     {
-        enemyAnim = GetComponent<Animator>();
-        _sfx = GetComponent<SoundEffects>();
+        
         _rBody = this.GetComponent<Rigidbody2D>();
     }
 
@@ -62,37 +47,9 @@ public class wayPointAI : MonoBehaviour
             _currentWayPoint++;
         }
 
-<<<<<<< HEAD:Assets/Scripts/Units/Enemies/wayPointAI.cs
-<<<<<<< HEAD:Assets/Scripts/Units/Enemies/enemyBehaviour.cs
-
-        Health _health = coll.GetComponent<Health>();
-
-        if(coll.tag == "AttackTrigger")
-        {
-            _sfx.PlaySound(Random.Range(0, 1));
-            enemyAnim.Play("Hit_L");
-            StartCoroutine(Destroy());
-        }
-    }
-
-
-        if (_health != null)
-        {
-
-            _health.takeDamage(_dmg);
-
-            StartCoroutine(Destroy());
-
-=======
         if(coll.tag == "AttackTrigger")
         {
             Destroy(this.gameObject);
->>>>>>> parent of 2a66a78... main:Assets/Scripts/Units/Enemies/wayPointAI.cs
-=======
-        if(coll.tag == "AttackTrigger")
-        {
-            Destroy(this.gameObject);
->>>>>>> parent of 2a66a78... main:Assets/Scripts/Units/Enemies/wayPointAI.cs
         }
     }
 
@@ -109,11 +66,5 @@ public class wayPointAI : MonoBehaviour
         _wayPoint = waypoints;
     }
 
-    IEnumerator Destroy()
-    {
-        _sfx.PlaySound(2);
-        //enemyAnim.Play("Death");
-        yield return new WaitForSeconds(2);
-        Destroy(this.gameObject);
-    }
+  
 }

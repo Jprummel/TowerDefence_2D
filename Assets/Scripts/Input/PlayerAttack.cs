@@ -83,6 +83,23 @@ public class PlayerAttack : MonoBehaviour
             attackTriggerD.enabled = true;
         }
 
+<<<<<<< HEAD
+>>>>>>> parent of 2a66a78... main
+=======
+        if (Input.GetKeyDown(KeyCode.I) && !_attackingU)
+        {
+            _attackingU = true;
+            _attackTimer = _attackCd;
+            attackTriggerU.enabled = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.K) && !_attackingD)
+        {
+            _attackingD = true;
+            _attackTimer = _attackCd;
+            attackTriggerD.enabled = true;
+        }
+
 >>>>>>> parent of 2a66a78... main
         if (_attackingR || _attackingL || _attackingU || _attackingD)
         {
