@@ -6,6 +6,8 @@ public class bulletMovement : MonoBehaviour
     private float _speed = 150f;
     private Transform _target;
     private Rigidbody2D _rBody;
+    [SerializeField]
+    private float _dmg;
 
     // Use this for initialization
     void Start()
@@ -31,6 +33,18 @@ public class bulletMovement : MonoBehaviour
     {
         _target = target;
 
+    }
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        Health _health = coll.GetComponent<Health>();
+
+        if(_health != null)
+        {
+            _health.takeDamage(_dmg);
+            Destroy(this.gameObject);
+
+        }  
     }
 
 }

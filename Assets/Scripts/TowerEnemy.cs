@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Tower : MonoBehaviour
+public class TowerEnemy : MonoBehaviour
 {
 
     //Tower Stats
@@ -20,7 +20,7 @@ public class Tower : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        _layerMask = LayerMask.GetMask("Enemy");
+        _layerMask = LayerMask.GetMask("Player");
 
     }
 

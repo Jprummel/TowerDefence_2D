@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class wayPointAI : MonoBehaviour
+public class enemyBehaviour : MonoBehaviour
 {
     private Transform[] _wayPoint;
     private int _currentWayPoint = 0;
     private float _speed = 100.0f;
     private Rigidbody2D _rBody;
+    [SerializeField]
+    private float _dmg;
+
     // Use this for initialization
     void Start()
     {
@@ -26,7 +29,7 @@ public class wayPointAI : MonoBehaviour
             Walk();
         }
 
-    }
+     }
 
     private void Walk()
     {
@@ -47,18 +50,13 @@ public class wayPointAI : MonoBehaviour
             _currentWayPoint++;
         }
 
-        if(coll.tag == "AttackTrigger")
-        {
-            Destroy(this.gameObject);
-        }
-    }
+        Health _health = coll.GetComponent<Health>();
 
-    void OnCollisionEnter2D(Collision2D coll)
-    { 
-        if(coll.gameObject.tag == "Bullet")
+        if (_health != null)
         {
-            Destroy(this.gameObject);
+            _health.takeDamage(_dmg);
         }
+
     }
 
     public void setWaypoints(Transform[] waypoints)

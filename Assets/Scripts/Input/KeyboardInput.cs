@@ -5,17 +5,15 @@ public class KeyboardInput : MonoBehaviour
 {
     private float walkSpeed;
     private float curSpeed;
-    private float maxSpeed;
 
      void Start()
     {
-        walkSpeed = 5.0f;
+        walkSpeed = 1.0f;
     }
 
     void FixedUpdate()
     {
         curSpeed = walkSpeed;
-        maxSpeed = curSpeed;
 
         
         this.GetComponent<Rigidbody2D>().velocity = 
