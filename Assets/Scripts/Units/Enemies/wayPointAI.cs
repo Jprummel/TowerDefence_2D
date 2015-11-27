@@ -7,6 +7,7 @@ public class wayPointAI : MonoBehaviour
     private int _currentWayPoint = 0;
     private float _speed = 100.0f;
     private Rigidbody2D _rBody;
+<<<<<<< HEAD:Assets/Scripts/Units/Enemies/wayPointAI.cs
 <<<<<<< HEAD:Assets/Scripts/Units/Enemies/enemyBehaviour.cs
     [SerializeField]
     private float _dmg;
@@ -16,6 +17,8 @@ public class wayPointAI : MonoBehaviour
     Animator enemyAnim;
     private SoundEffects _sfx;
 
+=======
+>>>>>>> parent of 2a66a78... main:Assets/Scripts/Units/Enemies/wayPointAI.cs
 =======
 >>>>>>> parent of 2a66a78... main:Assets/Scripts/Units/Enemies/wayPointAI.cs
     // Use this for initialization
@@ -59,6 +62,7 @@ public class wayPointAI : MonoBehaviour
             _currentWayPoint++;
         }
 
+<<<<<<< HEAD:Assets/Scripts/Units/Enemies/wayPointAI.cs
 <<<<<<< HEAD:Assets/Scripts/Units/Enemies/enemyBehaviour.cs
 
         Health _health = coll.GetComponent<Health>();
@@ -79,6 +83,11 @@ public class wayPointAI : MonoBehaviour
 
             StartCoroutine(Destroy());
 
+=======
+        if(coll.tag == "AttackTrigger")
+        {
+            Destroy(this.gameObject);
+>>>>>>> parent of 2a66a78... main:Assets/Scripts/Units/Enemies/wayPointAI.cs
 =======
         if(coll.tag == "AttackTrigger")
         {

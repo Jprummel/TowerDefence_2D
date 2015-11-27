@@ -6,6 +6,7 @@ public class KeyboardInput : MonoBehaviour
     private float walkSpeed;
     private float curSpeed;
     private float maxSpeed;
+<<<<<<< HEAD
 
     Animator playerMoveAnim;
 
@@ -18,6 +19,12 @@ public class KeyboardInput : MonoBehaviour
         walkSpeed = 5.0f;
 
 =======
+        walkSpeed = 5.0f;
+>>>>>>> parent of 2a66a78... main
+=======
+
+     void Start()
+    {
         walkSpeed = 5.0f;
 >>>>>>> parent of 2a66a78... main
     }
